@@ -1,11 +1,12 @@
 .container.testimonials__container {
-  width: 40%;
+  width: 80%;
 }
 
 .testimonial {
  background: var(--color-bg-variant); 
  text-align: center;
  padding: 2rem;
+ margin: 1rem;
  border-radius: 2rem;
  user-select: none;
 }

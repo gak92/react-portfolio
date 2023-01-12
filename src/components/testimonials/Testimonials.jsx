@@ -1,6 +1,28 @@
 import React from 'react';
 import './testimonials.css';
 import AVATAR1 from '../../assets/avatar1.jpg';
+import Carousel from 'react-multi-carousel';
+import 'react-multi-carousel/lib/styles.css';
+
+const responsive = {
+  superLargeDesktop: {
+    // the naming can be any, depends on you.
+    breakpoint: { max: 4000, min: 3000 },
+    items: 1
+  },
+  desktop: {
+    breakpoint: { max: 3000, min: 1024 },
+    items: 2
+  },
+  tablet: {
+    breakpoint: { max: 1024, min: 464 },
+    items: 1
+  },
+  mobile: {
+    breakpoint: { max: 464, min: 0 },
+    items: 1
+  }
+};
 
 const Testimonials = () => {
   const data = [
@@ -26,7 +48,7 @@ const Testimonials = () => {
       <h5>Review from peers</h5>
       <h2>Testimonials</h2>
 
-      <div className="container testimonials__container">
+      <Carousel responsive={responsive} className="container testimonials__container">
         {
           data.map(({avatar, name, review}, index) => {
             return (
@@ -40,7 +62,7 @@ const Testimonials = () => {
             )
           })
         }     
-      </div>
+      </Carousel>
     </section>
   )
 };
