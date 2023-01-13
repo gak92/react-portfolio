@@ -1,6 +1,6 @@
 import React from 'react';
 import './testimonials.css';
-import AVATAR1 from '../../assets/avatar1.jpg';
+// import AVATAR1 from '../../assets/avatar1.jpg';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 
