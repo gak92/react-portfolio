@@ -3,6 +3,7 @@ import './footer.css';
 import {FaFacebookF} from 'react-icons/fa';
 import {FaLinkedinIn} from 'react-icons/fa';
 import {FaTwitter} from 'react-icons/fa';
+import {FaGithub} from 'react-icons/fa';
 
 const Footer = () => {
   return (
@@ -20,9 +21,10 @@ const Footer = () => {
       </ul>
 
       <div className="footer__socials">
-        <a href="https://www.facebook.com/ghazanfar.ali.31105"><FaFacebookF /></a>
-        <a href="https://www.linkedin.com/in/ghazanfar-ali-kz/"><FaLinkedinIn /></a>
-        <a href="https://twitter.com/gak_92"><FaTwitter /></a>
+        <a href="https://www.facebook.com/ghazanfar.ali.31105" target="_blank"><FaFacebookF /></a>
+        <a href="https://www.linkedin.com/in/ghazanfar-ali-kz/" target="_blank"><FaLinkedinIn /></a>
+        <a href="https://twitter.com/gak_92" target="_blank"><FaTwitter /></a>
+        <a href="https://github.com/gak92/" target="_blank"><FaGithub /></a>
       </div>
 
       <div className="footer__copyright">
