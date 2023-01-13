@@ -2,7 +2,7 @@ import React from 'react';
 import './about.css';
 import ME from '../../assets/my_pic.png';
 import {FaAward} from 'react-icons/fa';
-import {FiUsers} from 'react-icons/fi';
+// import {FiUsers} from 'react-icons/fi';
 import {VscFolderLibrary} from 'react-icons/vsc'
 
 const About = () => {
@@ -22,14 +22,14 @@ const About = () => {
           <div className="about__cards">
             <article className="about__card">
               <FaAward className='about__card_icon'/>
-              <h5>Experience</h5>
-              <small>3+ years working</small>
+              <h5>IT Experience</h5>
+              <small>3+ years</small>
             </article>
-            <article className="about__card">
+            {/* <article className="about__card">
               <FiUsers className='about__card_icon'/>
               <h5>Clients</h5>
               <small>20+ clients worldwide</small>
-            </article>
+            </article> */}
             <article className="about__card">
               <VscFolderLibrary className='about__card_icon'/>
               <h5>Projects</h5>
@@ -38,7 +38,7 @@ const About = () => {
           </div>
 
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia, omnis? Veritatis, adipisci! Explicabo aliquam placeat est? Quos consequatur culpa magni. Neque dolorem sequi, culpa perspiciatis ipsum ducimus est repellat iste.
+          I have completed a Master's Degree in Computer Science. I have been in the IT industry for quite a long time and my previous experience is very versatile. I started my professional journey as a network and system administrator and worked in both Linux and Windows environments. After that, I started building a website that pushes me to learn coding and development. I am also learning DevOps which helps me to deploy web applications. I am seeing my next role as a Web Developer.
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
