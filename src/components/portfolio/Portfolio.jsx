@@ -1,27 +1,31 @@
 import React from 'react';
 import './portfolio.css';
 import IMG1 from '../../assets/portfolio1.jpg';
+import CODING_EXPO from '../../assets/coding_expo.png';
+import STOCK_METRICS from '../../assets/stock_metrics.png';
+import IMAGERY from '../../assets/imagery.png';
+import AWESOME_BOOKS from '../../assets/awesome_books.png';
 
 const Portfolio = () => {
 
   const data = [
     {
       id: 1,
-      image: IMG1,
+      image: CODING_EXPO,
       title: 'Coding Expo',
       github: 'https://github.com/gak92/Module01_Capstone_Project',
       demo: 'https://gak92.github.io/Module01_Capstone_Project/'
     },
     {
       id: 2,
-      image: IMG1,
-      title: 'Space Travellers Hub',
-      github: 'https://github.com/gak92/space-travel-hub',
-      demo: 'https://hub-space-travelers.netlify.app/'
+      image: AWESOME_BOOKS,
+      title: 'Awesome Books',
+      github: 'https://github.com/gak92/awesome_books_ES6',
+      demo: 'https://gak92.github.io/awesome_books_ES6/'
     },
     {
       id: 3,
-      image: IMG1,
+      image: STOCK_METRICS,
       title: 'Metrics webapp',
       github: 'https://github.com/gak92/metrics-wepapp/',
       demo: 'https://stock-metrics-webapp.netlify.app/'
@@ -42,7 +46,7 @@ const Portfolio = () => {
     },
     {
       id: 6,
-      image: IMG1,
+      image: IMAGERY,
       title: 'Imagery',
       github: 'https://github.com/gak92/Capstone-Module-2',
       demo: 'https://berkay-akbas.github.io/Capstone-Module-2/'

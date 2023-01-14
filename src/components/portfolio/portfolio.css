@@ -20,6 +20,11 @@
 .portfolio__item-image {
   border-radius: 1.5rem;
   overflow: hidden;
+  transition: var(--transition);
+}
+
+.portfolio__item-image:hover {
+  transform: scale(1.5);
 }
 
 .portfolio__item h3 {
