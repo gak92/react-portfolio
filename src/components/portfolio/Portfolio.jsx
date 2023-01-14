@@ -8,44 +8,44 @@ const Portfolio = () => {
     {
       id: 1,
       image: IMG1,
-      title: 'Title 01',
-      github: 'https://github.com',
-      demo: 'https://github.com'
+      title: 'Coding Expo',
+      github: 'https://github.com/gak92/Module01_Capstone_Project',
+      demo: 'https://gak92.github.io/Module01_Capstone_Project/'
     },
     {
       id: 2,
       image: IMG1,
-      title: 'Title 01',
-      github: 'https://github.com',
-      demo: 'https://github.com'
+      title: 'Space Travellers Hub',
+      github: 'https://github.com/gak92/space-travel-hub',
+      demo: 'https://hub-space-travelers.netlify.app/'
     },
     {
       id: 3,
       image: IMG1,
-      title: 'Title 01',
-      github: 'https://github.com',
-      demo: 'https://github.com'
+      title: 'Metrics webapp',
+      github: 'https://github.com/gak92/metrics-wepapp/',
+      demo: 'https://stock-metrics-webapp.netlify.app/'
     },
     {
       id: 4,
       image: IMG1,
-      title: 'Title 01',
-      github: 'https://github.com',
-      demo: 'https://github.com'
+      title: 'Home Budget App',
+      github: 'https://github.com/gak92/ror-home-budget-app',
+      demo: '#'
     },
     {
       id: 5,
       image: IMG1,
-      title: 'Title 01',
-      github: 'https://github.com',
-      demo: 'https://github.com'
+      title: 'Book Dev App',
+      github: 'https://github.com/gak92/book_devs_app',
+      demo: '#'
     },
     {
       id: 6,
       image: IMG1,
-      title: 'Title 01',
-      github: 'https://github.com',
-      demo: 'https://github.com'
+      title: 'Imagery',
+      github: 'https://github.com/gak92/Capstone-Module-2',
+      demo: 'https://berkay-akbas.github.io/Capstone-Module-2/'
     },
   
   ];
