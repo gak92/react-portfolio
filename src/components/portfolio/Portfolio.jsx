@@ -1,10 +1,11 @@
 import React from 'react';
 import './portfolio.css';
-import IMG1 from '../../assets/portfolio1.jpg';
 import CODING_EXPO from '../../assets/coding_expo.png';
 import STOCK_METRICS from '../../assets/stock_metrics.png';
 import IMAGERY from '../../assets/imagery.png';
 import AWESOME_BOOKS from '../../assets/awesome_books.png';
+import BOOKSTORE_CMS from '../../assets/bookstore_cms.png';
+import LEADERBOARD from '../../assets/leaderboard.png';
 
 const Portfolio = () => {
 
@@ -32,17 +33,17 @@ const Portfolio = () => {
     },
     {
       id: 4,
-      image: IMG1,
-      title: 'Home Budget App',
-      github: 'https://github.com/gak92/ror-home-budget-app',
-      demo: '#'
+      image: LEADERBOARD,
+      title: 'Leaderboard App',
+      github: 'https://github.com/gak92/Leaderboard',
+      demo: 'https://ghaz-leaderboard.netlify.app/'
     },
     {
       id: 5,
-      image: IMG1,
-      title: 'Book Dev App',
-      github: 'https://github.com/gak92/book_devs_app',
-      demo: '#'
+      image: BOOKSTORE_CMS,
+      title: 'Book Store App',
+      github: 'https://github.com/gak92/bookstore',
+      demo: 'https://ghaz-bookstore.netlify.app/'
     },
     {
       id: 6,
